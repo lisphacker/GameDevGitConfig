@@ -1,0 +1,73 @@
+# =============================================================================
+# Unreal Engine
+# =============================================================================
+
+# Build products
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Packaged/staged builds
+StagedBuilds/
+
+# Generated IDE/project files
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.xcodeproj
+*.xcworkspace
+
+# =============================================================================
+# Unreal Plugins
+# =============================================================================
+
+# Keep plugin source/content/config, ignore generated output
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+Plugins/**/DerivedDataCache/
+Plugins/**/Saved/
+
+# =============================================================================
+# IDEs / Editors
+# =============================================================================
+
+# Visual Studio
+.vs/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# VS Code
+# Remove this if you want to share project-level VS Code configuration.
+.vscode/
+*.code-workspace
+
+# =============================================================================
+# OS files
+# =============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =============================================================================
+# Miscellaneous
+# =============================================================================
+
+*.log
+*.tmp
+*.bak
+*.orig
+*.dmp
