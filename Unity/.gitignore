@@ -1,0 +1,143 @@
+# =============================================================================
+# Unreal Engine
+# =============================================================================
+
+# Generated project files
+*.VC.db
+*.VC.opendb
+*.sdf
+*.sln
+*.suo
+*.opensdf
+*.xcodeproj
+*.xcworkspace
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+*.code-workspace
+
+# Unreal generated/build directories
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Unreal local cache / generated files
+*.opensdf
+*.sdf
+*.suo
+*.VC.db
+*.VC.opendb
+
+# Unreal crash/debug files
+*.dmp
+
+# Unreal packaged/staged builds
+StagedBuilds/
+
+# Plugins can contain generated directories too.
+# Keep plugin source/content/config, but ignore generated output.
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+Plugins/**/DerivedDataCache/
+Plugins/**/Saved/
+
+# =============================================================================
+# Unity
+# =============================================================================
+
+# Unity generated/cache directories
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# Asset Store Tools
+[Aa]ssets/AssetStoreTools*
+
+# Unity generated IDE/project files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity crash reports
+sysinfo.txt
+
+# Unity temporary auto-generated files
+Assets/AssetStoreTools*
+Assets/StreamingAssets/aa.meta
+Assets/StreamingAssets/aa/*
+
+# =============================================================================
+# IDEs / editors
+# =============================================================================
+
+# Visual Studio
+.vs/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# VS Code - uncomment if you WANT to ignore shared workspace configuration
+.vscode/
+
+# Vim
+*.swp
+*.swo
+
+# Emacs
+*~
+\#*\#
+
+# =============================================================================
+# Operating systems
+# =============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# =============================================================================
+# Miscellaneous
+# =============================================================================
+
+*.log
+*.tmp
+*.bak
+*.orig
+
+# Local environment/configuration files
+.env
+.env.local
+.env.*.local
